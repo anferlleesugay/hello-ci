@@ -19,6 +19,7 @@ describe('E2E Home Page Test', () => {
   afterAll(async () => {
     if (driver) {
       await driver.quit();
+      await driver.sleep(5000);
     }
   });
 
