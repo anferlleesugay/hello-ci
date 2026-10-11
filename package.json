@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { "test": "jest" },
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "jest": "^30.5.2"
+    "jest": "^30.5.2",
+    "jest-junit": "^17.0.0",
+    "selenium-webdriver": "^4.51.0"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
   }
 }
